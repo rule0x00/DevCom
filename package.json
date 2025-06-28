@@ -1,0 +1,38 @@
+{
+  "name": "devcom",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rule0x00/DevCom#readme",
+  "bugs": {
+    "url": "https://github.com/rule0x00/DevCom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rule0x00/DevCom.git"
+  },
+  "license": "ISC",
+  "author": "Aakash Bhardwaj",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.0.4"
+  }
+}
